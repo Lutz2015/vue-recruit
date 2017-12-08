@@ -1,0 +1,171 @@
+.setpOne_title{
+    margin-top: 36px;
+    font-size:24px;
+    color:#000000;
+    text-align:center;
+    margin-bottom: 18px;
+}
+.setpOne_content{
+    margin: 0 0 0 24%;
+    min-width: 1000px;
+}
+.setpOne_content>div{
+    position: relative;
+    margin-bottom: 20px;
+}
+.setpOne_content>div.mb{
+    padding-bottom: 10px;
+}
+.setpOne_content div>div{
+    position: relative;
+}
+.setpOne_content .label{
+    display: inline-block;
+    vertical-align: middle;
+    width: 100px;
+}
+.setpOne_content .label.wd{
+    width: 130px;
+}
+.setpOne_content .inputPart.ml{
+    margin-left: 10px;
+}
+.setpOne_content .inputPart.ml input{
+    margin-left: 0px;
+}
+.setpOne_content .inputPart>p{
+    margin-left: 40px;
+    font-size:15px;
+    color:#515151;
+}
+
+.setpOne_content .inputPart{
+    display: inline-block;
+    vertical-align: middle;
+}
+.setpOne_content .warmPart{
+    display: inline-block;
+    vertical-align: middle;
+}
+.setpOne_content .warmPart>*{
+    vertical-align: middle;
+    font-size:12px;
+    color:#ff0000;  
+}
+.setpOne_content .inputPart input{
+    border:1px solid #eeeeee;
+    box-shadow:0 2px 4px 0 rgba(0,0,0,0.50);
+    height:42px;
+    margin-left: 40px;
+    margin-right: 20px;
+    padding: 0px 18px;
+}
+.setpOne_content .inputPart .inputPhoto{
+    position: absolute;
+    background:#f3f3f3;
+    border:1px solid #bcbcbc;
+    width:316px;
+    height:193px;
+    top:36px;
+    left: 40px;
+}
+.setpOne_content .inputPhoto label{
+    position: absolute;
+    top: 50%;
+    margin-top: -24px;
+    left: 50%;
+    margin-left: -88px;
+    padding: 12px 34px;
+    background-color:#009d01;
+    font-size:18px;
+    color:#ffffff;
+    cursor: pointer;
+}
+.setpOne_content .inputPhoto img{
+    display: none;
+}
+.setpOne_content .inputPhoto #inputPhoto{
+    display: none;
+}
+.setpOne_content .inputPart .tips{
+    position: absolute;
+    top:240px;
+    font-size:13px;
+    color:#bcbcbc;
+
+}
+
+.setpOne_content .label span{
+    font-size:14px;
+    color:#bcbcbc;
+    margin-left: 14px;
+    margin-right: 20px;
+    width: 64px;
+}
+.setpOne_content .label .dot{
+    position: absolute;
+    left: 0px;
+    top:8px;
+    border-radius: 50%;
+    background-color: red;
+    width: 4px;
+    height: 4px;
+}
+#inputName{
+    width: 362px;
+}
+#inputTel{
+    width: 230px;
+}
+
+#getCode{
+    background-color: #ffffff;
+    cursor: pointer;
+    width: 126px;
+    margin-left: -18px;
+    font-size:16px;
+    color:#666666;
+}
+#inputCode{
+    width: 230px;
+}
+#inputOrgNickName{
+    width: 362px;
+}
+#inputCreditCode{
+    width: 362px;
+}
+input:disabled{
+    background-color:#ffffff;
+}
+
+
+
+
+.setpOne_footer{
+    margin-top: 300px;
+    padding-bottom: 28px;
+    text-align: center;
+}
+.setpOne_footer span{
+    cursor:pointer;
+    padding: 5px 55px;
+    font-size:20px;
+}
+.setpOne_footer span.next{ 
+    border:1px solid #979797;
+    background-color:#009d01;
+    color:#ffffff;
+    /* padding: 5px 45px; */
+}
+.setpOne_footer span.back{
+    margin-left: 30px;
+    border:1px solid #979797;
+    background-color:#ffffff;
+    color:#666666;
+}
+.setpOne_footer p{
+    margin-top: 30px;
+    font-size:14px;
+    color:#666666;
+}

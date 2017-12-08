@@ -1,0 +1,219 @@
+#content{
+	background-color: #FFFFFF;
+	font-family: "microsoft yahei";
+	/*width: 1280px;*/
+	height: 100%;
+	margin:50px auto;
+}
+#content .contentTitle{
+	width: 100%;
+	font-size: 24px;
+	color:#000000;
+	text-align: center;
+	margin-bottom: 50px;
+}
+#content .item{
+	margin-bottom: 15px;
+}
+.leftTitle{
+	font-size: 14px;
+	line-height: 46px;
+	color:#bcbcbc;
+	text-align: left;
+	width: 25%;
+	float: left;
+	overflow: hidden;
+}
+.must::before{
+	content: "·";
+	color:red;
+	font-size: 24px;
+	line-height: 46px;
+	margin-right: 5px;
+	vertical-align: top;
+}
+.leftTitle span{
+	float: right;
+	
+}
+.post li{
+	float: left;
+	font-size: 14px;
+	background:#ffffff;
+	color: #000;
+	/*border:1px solid #bcbcbc;*/
+	/*height:34px;*/
+	/*padding: 0 15px;*/
+	/*line-height: 34px;*/
+	margin:5px 5px 5px 0;
+	cursor: pointer;
+}
+.post li span{
+	display: inline-block;
+	height: 34px;
+	line-height: 34px;
+	padding: 0 15px;
+	border:1px solid #bcbcbc;
+}
+.post li span:hover{
+	background:#009d01;
+	color:#fff;
+	border: 1px solid #009d01;
+	height:34px;
+}
+
+.post li .active{
+	background:#009d01;
+	color:#fff;
+	border: 1px solid #009d01;
+	height:34px;
+}
+.rightContent{
+	width:70%;
+	margin-left: 2%;
+	float: left;
+}
+#department{
+	background:#ffffff;
+	border:1px solid #eeeeee;
+	box-shadow:0 2px 4px 0 rgba(0,0,0,0.50);
+	width:60%;
+	height:42px;
+	text-indent: 15px;
+}
+#address{
+	float: left;
+	border:1px solid #eeeeee;
+	box-shadow:0 2px 4px 0 rgba(0,0,0,0.50);
+	width:238px;
+	height:42px;
+	text-indent: 15px;
+}
+#detaileAddress{
+	float: left;
+	margin-left: 30px;
+	border:1px solid #eeeeee;
+	box-shadow:0 2px 4px 0 rgba(0,0,0,0.50);
+	width:400px;
+	height:42px;
+	text-indent: 15px;
+}
+#experience{
+	background:#ffffff;
+	border:1px solid #eeeeee;
+	box-shadow:0 2px 4px 0 rgba(0,0,0,0.50);
+	width:136px;
+	height:42px;
+	text-indent: 15px;
+}
+#education{
+	background:#ffffff;
+	border:1px solid #eeeeee;
+	box-shadow:0 2px 4px 0 rgba(0,0,0,0.50);
+	width:136px;
+	height:42px;
+	text-indent: 15px;
+}
+
+
+.positionType li{
+	float: left;
+	font-size: 14px;
+	background:#ffffff;
+	color: #000;
+	/*border:1px solid #bcbcbc;*/
+	/*height:34px;*/
+	/*padding: 0 15px;*/
+	/*line-height: 34px;*/
+	margin:5px 5px 5px 0;
+	cursor: pointer;
+}
+.positionType li span{
+	display: inline-block;
+	height: 34px;
+	line-height: 34px;
+	padding: 0 15px;
+	border:1px solid #bcbcbc;
+}
+.positionType li span:hover{
+	background:#009d01;
+	color:#fff;
+	border: 1px solid #009d01;
+	height:34px;
+}
+
+.positionType li .active{
+	background:#009d01;
+	color:#fff;
+	border: 1px solid #009d01;
+	height:34px;
+}
+
+
+#superior,#subordinate{
+	background:#ffffff;
+	border:1px solid #eeeeee;
+	box-shadow:0 2px 4px 0 rgba(0,0,0,0.50);
+	width:238px;
+	height:42px;
+	text-indent: 15px;
+}
+#expiryDateF{
+	position: relative;
+}
+#expiryDate{
+	background:#ffffff;
+	border:1px solid #eeeeee;
+	box-shadow:0 2px 4px 0 rgba(0,0,0,0.50);
+	width:218px;
+	height:42px;
+	text-indent: 15px;
+}
+.expiryDatePrompt{
+	font-family:MicrosoftYaHei;
+	font-size:12px;
+	color:#ff0000;
+	position: absolute;
+	top: 12px;
+	left: 260px;
+}
+.jump{
+	width: 400px;
+	height: 40px;
+	margin: 50px auto;
+}
+#nextStep,#previousStep{
+	width:172px;
+	height:38px;
+	cursor: pointer;
+}
+#nextStep{
+	background:#009d01;
+	border:1px solid #009d01;
+	font-family:PingFangSC-Regular;
+	font-size:20px;
+	color:#ffffff;
+	line-height:30px;
+	text-align:center;
+	margin-right: 30px;
+}
+#previousStep{
+	border:1px solid #979797;
+	background: #fff;
+	font-family:PingFangSC-Regular;
+	font-size:20px;
+	color:#666666;
+	line-height:30px;
+	text-align:center
+}
+.jump .contentFooter{
+	width: 100%;
+	text-align: center;
+	margin-top: 20px;
+	font-family:PingFangSC-Regular;
+	font-size:14px;
+	color:#666666;
+}
+
+
+.showPlace{display: none;}

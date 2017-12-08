@@ -1,0 +1,152 @@
+#content{
+	background-color: #FFFFFF;
+	font-family: "microsoft yahei";
+	/*width: 1280px;*/
+	height: 100%;
+	margin:0 auto;
+}
+#content .contentTitle{
+	width: 100%;
+	font-size: 24px;
+	color:#000000;
+	text-align: center;
+	margin-bottom: 50px;
+}
+#content .item{
+	margin-bottom: 15px;
+}
+.leftTitle{
+	font-size: 14px;
+	line-height: 46px;
+	color:#bcbcbc;
+	text-align: left;
+	width: 35%;
+	float: left;
+	overflow: hidden;
+}
+.must::before{
+	content: "·";
+	color:red;
+	font-size: 24px;
+	line-height: 46px;
+	margin-right: 5px;
+	vertical-align: top;
+}
+.leftTitle span{
+	float: right;
+	
+}
+#minWages,#maxWages{
+	background:#ffffff;
+	border:1px solid #eeeeee;
+	box-shadow:0 2px 4px 0 rgba(0,0,0,0.50);
+	width:78px;
+	height:42px;
+	text-indent: 15px;
+}
+.rightContent{
+	width:60%;
+	margin-left: 2%;
+	float: left;
+}
+.liList li{
+	float: left;
+	font-size: 14px;
+	background:#ffffff;
+	color: #000;
+	border:1px solid #bcbcbc;
+	height:34px;
+	padding: 0 15px;
+	line-height: 34px;
+	margin:5px 5px 5px 0;
+	cursor: pointer;
+}
+.liList li:hover{
+	background:#009d01;
+	color:#fff;
+	border: 1px solid #009d01;
+	height:34px;
+}
+.wagesPrompt{
+	display: inline;
+	margin-left: 20px;
+	font-size:12px;
+	color:#bcbcbc;
+}
+.wagesPrompt span{
+	color: red;
+}
+
+
+.radioStyle label{
+    display:inline-block;
+    cursor:pointer;
+    /*opacity:0.7;*/
+	font-family:MicrosoftYaHei;
+	font-size:16px;
+	line-height: 44px;
+	color:#283044;
+	letter-spacing:0;
+	text-align:left;
+	margin-right: 10px;
+}
+.radioStyle label input + span{
+    width:18px;
+    height:18px;
+    display:inline-block;
+    background-image:url(../images/ic_choose.png);
+    vertical-align: sub;
+}
+.radioStyle label input:checked + span{
+    background-image:url(../images/ic_choose_pre.png);
+    vertical-align: sub;
+}
+.radioStyle input{
+    appearance: none;
+    -webkit-appearance: none;
+    /* outline: none; */
+}
+.radioStyle span{
+    /*opacity:0.7;*/
+    font-size:18px;
+    color:#283044;
+}
+
+
+.jump{
+	width: 400px;
+	height: 40px;
+	margin: 60px auto;
+}
+#nextStep,#previousStep{
+	width:172px;
+	height:38px;
+	cursor: pointer;
+}
+#nextStep{
+	background:#009d01;
+	border:1px solid #009d01;
+	font-family:PingFangSC-Regular;
+	font-size:20px;
+	color:#ffffff;
+	line-height:30px;
+	text-align:center;
+	margin-right: 30px;
+}
+#previousStep{
+	border:1px solid #979797;
+	background: #fff;
+	font-family:PingFangSC-Regular;
+	font-size:20px;
+	color:#666666;
+	line-height:30px;
+	text-align:center
+}
+.jump .contentFooter{
+	width: 100%;
+	text-align: center;
+	margin-top: 20px;
+	font-family:PingFangSC-Regular;
+	font-size:14px;
+	color:#666666;
+}

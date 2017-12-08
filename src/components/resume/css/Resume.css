@@ -1,0 +1,377 @@
+#app{
+	width: 100%;
+	position: relative;
+	background-color: white;
+}
+.headImg{
+	width: 100px;
+	height: 100px;
+	margin: 0 auto !important;
+}
+.hImg{
+	width: 120px;
+	height: 120px;
+	background-color: gold;
+	margin-top: -108px;
+	margin-left: 300px;
+}
+.headImg img{
+	height: 100px;
+	width: 100px;
+	border-radius: 50%;
+	margin:  auto;
+}
+.personal_information{
+	width: 67%;
+	height: 208px;
+	margin-top: 96px;
+	margin-left: 5%;
+	background-color: #D5D5D5;
+	padding-top: 85px;
+}
+.personal_information .tex p{
+	margin: 0 auto;
+	line-height: 30px;
+	text-align: center;
+}
+.tex{
+	margin-top: -100px;
+}
+.tex img{
+	margin-top: -40px;
+}
+.personal_information .tex p:first-child{
+	margin-top: 75px;
+}
+.experience{
+	border: 1px solid #DDDDDD;
+	width: 100%;
+	height: 150px;
+	box-sizing: border-box;
+}
+.experience:nth-child(1){
+	margin-top: 100px;
+}
+.experience hr{
+	width: 93%;
+	height: 1px;
+	background-color: #DDDDDD;
+	border:none;
+}
+select{
+	width: 150px;
+}
+.graduation{
+	margin-left: 120px;
+}
+.title{
+	text-align: center;
+}
+#first{
+	margin-top: 50px;
+}
+.content{
+	width: 95%;
+	margin: 0 auto;
+}
+.left{
+	display: block;
+	float: left;
+}
+.right{
+	display: block;
+	float: right;
+}
+.tem{
+	margin-top: 20px;
+	z-index: 500;
+}
+/*.cusster{
+	height: 72.5px;
+}*/
+.experience{
+	margin-top: 20px;
+}
+.add{
+	float: right;
+	margin-top: -12px;
+	color: green;
+	height: 20px;
+	width: 60px;
+	background-color: white;
+	text-align: center;
+	z-index: 1000;
+}
+.edit{
+	float: right;
+	margin-right: -2.5%;
+	color: green;
+	height: 20px;
+	width: 60px;
+	/*background-color: #F8F8F8;*/
+	text-align: center;
+	z-index: 200;
+}
+.practice{
+	background-color: white;
+	height: 20px;
+	width: 100px;
+	margin: 0 auto;
+	margin-top: -12px;
+	text-align: center;
+}
+.tem span{
+	line-height: 1px;
+}
+.tem img{
+	width: 85px;
+	height: 85px;
+}
+.tem{
+	position: relative;
+}
+.logo{
+	position: absolute;
+	left: 0;
+	top: 20px;
+}
+.school{
+	position: absolute;
+	left: 100px;
+	top: 20px;
+}
+.school span{
+	line-height: 30px;
+}
+.pimg .left{
+	margin-left: 100px;
+}
+.conster{
+	margin-left: 100px;
+}
+.jingli{
+	width: 100%;
+	height: 520px;
+	background-color: #F8F8F8;
+	z-index: 2000;
+	margin-top: -80px;
+	position: relative;
+	padding: 20px;
+	display: none;
+}
+.input-sel {
+    background: #f0f0f0;
+    width: 118px;
+    height: 46px;
+    line-height: 46px;
+    font-size: 18px;
+    color: #000;
+    text-align: center;
+    position: absolute;
+    right: 122px;
+    top: 3px;
+    text-indent: 8px;
+}
+#education{
+	margin-top: -120px;
+	height: 320px;
+}
+
+.content .confirm input{
+	width: 20%;
+	height: 59px;
+}
+.comment{
+	width: 95%;
+	margin: 0 auto;
+}
+.comment input{
+	height: 30px;
+	margin-top: 10px;
+	width: 30%;
+}
+.confirm .save{
+	float: left;
+	width: 30%;
+	color: #009D01;
+}
+.save span{
+	color: #009D01;
+	/*display: block;
+	height: 20px;
+	width: 30px;*/
+}
+.confirm .save input{
+	background-color: #009D01;
+}
+.confirm .cencel{
+	float: left;
+	width: 30px;
+	height: 20px;
+}
+.delete{
+	float: right;
+	margin-top: 15px;
+}
+.comment p{
+	margin-top: 15px;
+}
+.comment textarea{
+	margin-top: 15px;
+	width: 100%;
+}
+.company{
+	float: left;
+}
+.clogo{
+	float: left;
+	height: 100px;
+	width: 100px;
+	background-color: white;
+}
+.duty{
+	margin-top: 5px;
+	font-size: 12px;
+	color: #515151;
+}
+.duty .edit{
+	width: 100px;
+	margin-right: -1.5%;
+	color: #515151;
+}
+.third{
+	height: 345px;
+}
+.self{
+	height: 128px;
+}
+.self .item{
+	margin-top: 10px;
+}
+.except{
+	height: 65px;
+}
+.except .item{
+	margin-top: 10px;
+}
+.except .dataDisscuse{
+	float: left;
+	width: 25%;
+	text-align: center;
+}
+.except .dataDisscuse span{
+	margin-top: -5px;
+}
+.progress{	
+	float: left;
+}
+.progress-bar{
+	height: 80px;
+}
+.bar{
+	width: 60%;
+	height: 8px;
+	margin-top: 5px;
+	border-radius: 5px;
+	background-color: #DDDDDD;
+	margin: 8px;
+}
+.green{
+	width: 60%;
+	height: 8px;
+	background-color: #009D01;
+	border-radius: 5px;
+}
+.custom{
+	width: 150px;
+}
+.uploadResume{
+	width: 30%;
+    position: absolute;
+    right: -5%;
+    top: -100px;
+}
+.upload{
+	width: 100%;
+	height: 100px;
+	background-color: #F8F8F8;
+	/*background-color: green;*/
+}
+.upload img{
+	height: 20px;
+	width: 65%;
+	margin: 39px auto;
+	display: block;
+}
+.alaway{
+	float: left;
+	margin-top: 17px;
+}
+.preview{
+	float: right;
+	margin-top: 17px;
+}
+.upImg{
+	margin: 39px auto;
+	padding-top: 1px;
+}
+.complete_progress{
+	width: 100%;
+	height: 5px;
+	background-color: green;
+	margin-top: 60px;
+}
+.already{
+	width: 75%;
+	height: 5px;
+	background-color: green;
+	margin-top: 60px;
+	position: absolute;
+	top: -60px;
+	border-radius: 5px;
+}
+.complete{
+	height: 100px;
+	background-color: #F8F8F8;
+	position: relative;
+}
+.container{
+	width: 95%;
+	margin: 0 auto;
+}
+.complete_tex{
+	margin-top: 20px;
+	/*height: 100px;*/
+}
+.progress_complete{
+	width: 93%;
+	height: 6px;
+	position: absolute;
+	left: 5%;
+	top: 50px;
+	border-radius: 5px;
+	background-color: #BCBCBC;
+}
+.modele{
+	width: 100%;
+	height: 320px;
+	margin-top: 25px;
+	border: 1px solid #EEEEEE;
+}
+.modele li{
+	height: 30px;
+	padding: 8px;
+	border-left: 5px solid white;
+	margin-left: 15px;
+	padding-left: 15px;
+	margin-top: 5px;
+}
+.check:nth-child(1){
+	border-left: 5px solid green !important;
+}
+.tbb{
+	border-left: 5px solid green !important;
+}
+body{
+	background-color: white  !important;
+}

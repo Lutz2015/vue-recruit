@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta content="width=device-width, initial-scale=1" name="viewport" />
+		<link rel="stylesheet" type="text/css" href="css/jianli.css"/>
+		<title>简历</title>
+	</head>
+	<body>		
+		<<div id="main">
+		    <nav>
+		        <a v-for="(i,index) in items" :class="{'show':i.active}" @click="markActive(i,index)">{{i.name}}</a>
+		    </nav>
+		    <b>{{chose}}</b>
+		</div>
+	</body>
+</html>
+<script src="vue.js" type="text/javascript" charset="utf-8"></script>
+<script>
+//首先我们的new一个对象
+new Vue({
+　　el:"#main",
+	data:{
+	　　chose:"HTML",　
+	   items:[	
+	　　　　{name:"HTML",active:true},
+	　　　　{name:"CSS",active:false},
+	　　　　{name:"Javascript",active:false},
+	　　　　{name:"Vue.js",active:false}
+	　　　　]	
+	},
+	methods:{
+	　　markActive:function(item,index){
+		//这里的itme-->我点击的数据内容   index:我点击的数据的引索
+	　　　　this.chose = item.name;  
+		//这里表示的是将我选择的信息放置到页面中（item。name）
+			for(var i = 0;i<this.items.length;i++){
+			　　this.items[i].active = false    //这里我们需要做的是清除所有a标签的样式	　　 
+			}
+			this.items[index].active = true   //这里我们单独赋予被选中的a标签show的样式  
+		}		
+	}
+})
+</script>
